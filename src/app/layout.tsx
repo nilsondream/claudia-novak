@@ -6,6 +6,7 @@ import "./globals.css";
 
 const font = localFont({
   src: "./fonts/JetBrainsMono-Regular.woff2",
+  variable: "--font-jetbrains",
   weight: "400",
 });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} ${fontTitle.variable} antialiased`}
+        className={`${font.variable} ${fontTitle.variable} antialiased`}
       >
         <Navbar />
         {children}
