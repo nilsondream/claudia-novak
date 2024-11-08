@@ -9,6 +9,11 @@ const font = localFont({
   weight: "400",
 });
 
+const fontTitle = localFont({
+  src: "./fonts/Vault-Mono.woff",
+  variable: "--font-vault",
+});
+
 export const metadata: Metadata = {
   title: "Claudia — Novak",
   description: "Creative Director",
@@ -22,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased`}
+        className={`${font.className} ${fontTitle.variable} antialiased`}
       >
         <Navbar />
         {children}

@@ -10,11 +10,6 @@
   scrollbar-width: none;
 }
 
-@font-face {
-  font-family: 'Vault Mono';
-  src: url('./fonts/VaultMono.otf');
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -22,5 +17,5 @@ body {
 }
 
 .font-custom {
-  font-family: 'Vault Mono', sans-serif, system-ui;
+  font-family: var(--font-vault), system-ui;
 }
