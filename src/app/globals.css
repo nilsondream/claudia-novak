@@ -22,5 +22,5 @@ body {
 }
 
 .font-custom {
-  font-family: 'Vault Mono';
+  font-family: 'Vault Mono', sans-serif, system-ui;
 }
