@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000;
+  --foreground: #FFD6FB;
+
+  color-scheme: dark;
+  scrollbar-width: none;
+}
+
+@font-face {
+  font-family: 'Vault Mono';
+  src: url('./fonts/VaultMono.otf');
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  text-transform: uppercase;
+}
+
+.font-custom {
+  font-family: 'Vault Mono';
+}
