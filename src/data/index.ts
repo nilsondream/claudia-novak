@@ -43,58 +43,86 @@ export const photos = [
     },
     {
         id: '007',
-        name: 'Rainfall',
-        aperture: '3.5',
+        name: 'Ice',
+        aperture: '15.8',
         year: '2024',
         image: '/photo_007.webp'
     },
     {
         id: '008',
-        name: 'Road',
-        aperture: '10.0',
+        name: 'Rainfall',
+        aperture: '3.5',
         year: '2024',
         image: '/photo_008.webp'
     },
     {
         id: '009',
-        name: 'Motion Blur',
-        aperture: '2.0',
+        name: 'Road',
+        aperture: '10.0',
         year: '2024',
         image: '/photo_009.webp'
     },
     {
         id: '010',
-        name: 'Desert',
-        aperture: '11.0',
+        name: 'Motion Blur',
+        aperture: '2.0',
         year: '2024',
         image: '/photo_010.webp'
     },
     {
         id: '011',
-        name: 'SK8',
-        aperture: '7.5',
+        name: 'Desert',
+        aperture: '12.7',
         year: '2024',
         image: '/photo_011.webp'
     },
     {
         id: '012',
-        name: 'Waves',
-        aperture: '15.2',
+        name: 'Trek',
+        aperture: '30.0',
         year: '2024',
         image: '/photo_012.webp'
     },
     {
         id: '013',
-        name: 'Travel',
+        name: 'SK8',
         aperture: '15.0',
         year: '2024',
         image: '/photo_013.webp'
     },
     {
         id: '014',
+        name: 'Waves',
+        aperture: '17.0',
+        year: '2024',
+        image: '/photo_014.webp'
+    },
+    {
+        id: '015',
+        name: 'Travel',
+        aperture: '20.0',
+        year: '2024',
+        image: '/photo_015.webp'
+    },
+    {
+        id: '016',
+        name: 'Smoke',
+        aperture: '7.2',
+        year: '2024',
+        image: '/photo_016.webp'
+    },
+    {
+        id: '017',
         name: 'Racing',
         aperture: '10.0',
         year: '2024',
-        image: '/photo_014.webp'
+        image: '/photo_017.webp'
+    },
+    {
+        id: '018',
+        name: 'Minimal',
+        aperture: '17.0',
+        year: '2024',
+        image: '/photo_018.webp'
     },
 ]
