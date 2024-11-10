@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className='pt-[70vh] md:pt-[50vh] md:px-5 flex flex-col items-center gap-40'>
+      <div className='pt-[70vh] md:pt-[60vh] md:px-5 flex flex-col items-center gap-40'>
         {photos.map((e) => (
           <div key={e.id} className='w-[400px] md:w-full aspect-[4/5] group relative overflow-hidden'>
             <img

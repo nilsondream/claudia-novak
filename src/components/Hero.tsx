@@ -34,7 +34,7 @@ const Hero = () => {
     }
 
     return (
-        <div className="overflow-hidden pl-10 fixed left-0 top-0 z-[-1] h-[75vh] md:h-[55vh] flex items-center">
+        <div className="overflow-hidden pl-10 fixed left-0 top-0 z-[-1] h-[75vh] md:h-[65vh] flex items-center">
             <h1 ref={slider} className="font-custom text-[25vw] md:text-[40vw] whitespace-nowrap flex">
                 <span ref={textOne}>Creative Director<span className='px-20'>✦</span></span>
                 <span ref={textTwo}>Creative Director<span className='px-20'>✦</span></span>
