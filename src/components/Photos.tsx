@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { photos } from "@/data";
+import { X } from 'lucide-react';
 
 interface Photo {
     id: string;
@@ -50,6 +51,7 @@ const Photos: React.FC = () => {
             {selectedImage && (
                 <div className="fixed z-[999] w-full h-full top-0 left-0 flex items-center justify-center">
                     <div className='absolute bg-black/75 w-full h-full' onClick={closeModal} />
+                    <button className='absolute top-5 right-5' onClick={closeModal}><X /></button>
                     <img src={selectedImage} alt="Selected" className='relative z-10 aspect-[4/5] object-cover h-[90%] md:h-auto' />
                 </div>
             )}
